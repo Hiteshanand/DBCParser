@@ -1,0 +1,357 @@
+<?xml version="1.0" ?>
+<systemvariables version="4">
+	<namespace name="" comment="" interface="">
+		<namespace name="EPS_XCP_REQ" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="EPS_XCP_Req" comment="" bitcount="64" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="FIH_In_2" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="HSCAN_In2_Low" comment="" bitcount="64" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="HSCAN_In2_High" comment="" bitcount="64" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="FIH_In_1" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="HSCAN_In1_Low" comment="" bitcount="64" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="HSCAN_In1_High" comment="" bitcount="64" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="IPMB_Data1_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrCamraCalib_D_Stat" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="TrailerAid_Data3_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrAidSetup_D2_Rq" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrAidEnbl_D2_Rq" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrTrgtToBmpr_L_Actl" comment="" bitcount="64" isSigned="false" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrRvrseCancl_B_Rq" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrIdType_D_Stat" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrId_No_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrBallToBmpr_L_Actl" comment="" bitcount="64" isSigned="false" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrAxleToBmpr_L_Actl" comment="" bitcount="64" isSigned="false" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrAnOffstDir_D_Mem" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrAnOffst_An_Mem" comment="" bitcount="64" isSigned="false" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrTrgtOffst_L_Actl" comment="" bitcount="64" isSigned="false" encoding="65001" type="float"/>
+		</namespace>
+		<namespace name="TrailerInfo_2_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrAidSwtch_D_RqDrv" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrAidCtl_U_RqDrv" comment="" bitcount="64" isSigned="false" encoding="65001" type="float"/>
+		</namespace>
+		<namespace name="Image_Processing_Data" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="1000" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrRvrseMsgTxt_D2_Rq" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrRvrseEnbl_D2_Stat" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrAidEnbl_D_RqAdas" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="TrailerAid_Stat2_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrYawWActl_D_Qf" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrYaw_W_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrHitYaw_AnRate_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrHitchYaw_D_Stat" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrHitchYaw_An_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+		</namespace>
+		<namespace name="TrailerAid_Stat1_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrSnsId_No_Actl" comment="" bitcount="64" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="Body_Info_4_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="BattULo_U_Actl" comment="" bitcount="64" isSigned="false" encoding="65001" type="float"/>
+		</namespace>
+		<namespace name="Steer_Assist_Data" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="50" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CmbbObjRelLong_V_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CmbbObjRelLat_V_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CmbbObjDistLong_L_Actl" comment="" bitcount="64" isSigned="false" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CmbbObjDistLat_L_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CmbbObjConfdnc_D_Stat" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CmbbObjColl_T_Actl" comment="" bitcount="64" isSigned="false" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CmbbObjClass_D_Stat" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="EsaEnbl_D2_Rq" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="Lane_Assist_Data1" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="30" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="LkaDrvOvrrd_D_Rq" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="LkaActvStats_D2_Req" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="LaRefAng_No_Req" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="LaRampType_B_Req" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="LaCurvature_No_Calc" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="LdwActvStats_D_Req" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="LdwActvIntns_D_Req" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="PSCM_AutoSar_NetwrkMgmt" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="1000" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="PSCM_GWOnBoardTester" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="PSCM_GWNMProxy" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="PSCM_AutoSarNMReserved4" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="PSCM_AutoSarNMReserved3" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="PSCM_AutoSarNMReserved2" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="PSCM_AutoSarNMReserved1" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="PSCM_AutoSarNMNodeId" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="PSCM_AutoSarNMControl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="GGCC_Config_Mgmt_ID_1_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="VehicleGGCCData" comment="" bitcount="64" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="WheelData_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="WhlRotatRr_No_Cnt" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="WhlDirRr_D_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="WhlDirRl_D_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="WhlDirFr_D_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="WhlDirFl_D_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="WhlRotatRl_No_Cnt" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="WhlRotatFr_No_Cnt" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="WhlRotatFl_No_Cnt" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="APIM_Send_Signals_2_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrAidMde_D_Rq" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="TesterPhysicalResPSCM" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TesterPhysicalResPSCM" comment="" bitcount="64" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="TesterPhysicalReqPSCM" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TesterPhysicalReqPSCM" comment="" bitcount="64" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="Steering_Data" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="100" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TurnLghtSwtch_D_Stat" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="BrakeSnData_4_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="VehRolComp_W_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="VehVertComp_A_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="BrkTot_Tq_RqArb" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="BrkTot_Tq_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="BrakeSnData_3_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="VehOverGnd_V_Est" comment="" bitcount="64" isSigned="false" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="VehLongComp_A_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="VehLatComp_A_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="VehYawComp_W_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+		</namespace>
+		<namespace name="ParkAid_Aud_Warn_Stat" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="200" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="PrkAidMsgTxt_D_Rq" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="ParkAid_Data" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="20" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="ApaSys_D_Stat" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="SAPPStatusCoding" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="EPASExtAngleStatReq" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="ExtSteeringAngleReq2" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="ApaButtnPrssd_B_Stat" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="TripResetSyncMessage_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="50" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TronTripCnt_No_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TronResetCnt_No_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="SymKeyFuncGWM_ECG_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="SymKeyFuncGWM_ECG" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="SymKeyPhysPSCMtoGWM_ECG" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="SymKeyPhysPSCMtoGWM_ECG" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="SymKeyPhysGWM_ECGtoPSCM" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="SymKeyPhysGWM_ECGtoPSCM" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="Yaw_Data_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="VehYaw_W_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="VehRol_W_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+		</namespace>
+		<namespace name="WheelSpeed_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="WhlRr_W_Meas" comment="" bitcount="64" isSigned="false" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="WhlRl_W_Meas" comment="" bitcount="64" isSigned="false" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="WhlFr_W_Meas" comment="" bitcount="64" isSigned="false" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="WhlFl_W_Meas" comment="" bitcount="64" isSigned="false" encoding="65001" type="float"/>
+		</namespace>
+		<namespace name="PARSEDPushPSCMtoGWM_ECG" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="PARSEDPushPSCMtoGWM_ECG" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="PARSEDPushFcGWM_ECGtoPSCM" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="PARSEDPushFcGWM_ECGtoPSCM" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="DesiredTorqBrk_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="AbsActv_B_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="StabCtlBrkActv_B_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CmbbBrkDis_B_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CmbbDeny_B_ActlBrk" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="EngVehicleSpThrottle_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="ApedPos_Pc_ActlArb" comment="" bitcount="64" isSigned="false" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="ApedPosPcActl_D_Qf" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="EngAout_N_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="EngVehicleSpThrottle2_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="VehVTrlrAid_B_Avail" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="GearRvrse_D_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="TrailerAid_Stat3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="50" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrTrgtAcquire_D_Stat" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrAnOffst_An_Calc" comment="" bitcount="64" isSigned="false" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrAnOffstDir_D_Calc" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrRvrse_D_Stat" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrAid_D2_Stat" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrAidTrgtId_No_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrAid_An3_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrAid_AnRate2_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="HitchToVehAxle_L_Calc" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+		</namespace>
+		<namespace name="LateralMotionControl2" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="50" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="LatCtlPathOffst_L_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="LatCtlPath_An_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="LatCtlCurv_No_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="LatCtlRampType_D_Rq" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="LatCtlPrecision_D_Rq" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="HandsOffCnfm_B_Rq" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="LatCtlCrv_NoRate2_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="LatCtlPath_No_Cnt" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="LatCtlPath_No_Cs" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="LatCtl_D2_Rq" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="ABS_BrkBst_Data_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="YawStabilityIndex" comment="" bitcount="32" isSigned="true" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="BrkTot_Tq_RqDrv" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="TrailerBrakeInfo_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrBrkActCnnct_B_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="Cluster_Info1_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="OdometerMasterValue" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="OTAPhysGWM_ECGtoPSCM" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="OTAPhysGWM_ECGtoPSCM" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="OTAPhysPSCMtoGWM_ECG" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="OTAPhysPSCMtoGWM_ECG" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="PARSEDPhysGWM_ECGtoPSCM" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="PARSEDPhysGWM_ECGtoPSCM" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="PARSEDPhysPSCMtoGWM_ECG" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="PARSEDPhysPSCMtoGWM_ECG" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="BrakeSysFeatures_3_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="SelDrvMdeChassis2_D_Rq" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="APIM_Send_Signals1_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrAidCancl_B_Rq" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="PowertrainData_10_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrnRng_D_Rq" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="GearPos_D_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="VehicleOperatingModes_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="PrplWhlTot2_Tq_Actl" comment="" bitcount="32" isSigned="true" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="PwPckTq_D_Stat" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="ElPw_D_Stat" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="EngBrakeData_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="BPedDrvAppl_D_Qf" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="BpedDrvAppl_D_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="Climate_Control_Data_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="Outside_Air_Temp_Stat" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+		</namespace>
+		<namespace name="BrakeSysFeatures_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="LsmcBrkDecel_D_Stat" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="VehVActlBrk_No_Cs" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="Veh_V_ActlBrk" comment="" bitcount="64" isSigned="false" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="VehVActlBrk_No_Cnt" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="VehVActlBrk_D_Qf" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="BrakeSnData_6_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="StePinOffst_An_Est" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="StePinOffst_No_Cs" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="StePinOffst_No_Cnt" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="StePinOffst_D_Stat" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="Mc_Send_Signals_2_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="EsaOn_B_Rq" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="TransGearData_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="GearLvrPos_D_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="PowertrainData_9_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="GrossTrainWeight_M_Est" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="TrailerInfo_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TrlrLampCnnct_B_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="PARSEDFuncGWM_ECG_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="PARSEDFuncGWM_ECG" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="Accel_Data_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="VehLatLongVertA_No_Cs" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="VehLatAActl_D_Qf" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="VehLat2_A_Actl" comment="" bitcount="64" isSigned="true" encoding="65001" type="float"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="VehLatLongVert_No_Cnt" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="TesterFunctionalReq_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="TesterFunctionalReq" comment="" bitcount="64" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="BodyInfo_3_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="Ignition_Status" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="PrkBrkActv_B_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="LifeCycMde_D_Actl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="Battery_Mgmt_2_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="PwSysULoFalt_D_Stat" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+		<namespace name="GWM_AutoSar_NetMgmt_FD3" comment="" interface="">
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="CycleTime" startValue="1000" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="GWM_GWOnBoardTester" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="GWM_GWNMProxy" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="GWM_AutoSarNMReserved4" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="GWM_AutoSarNMReserved3" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="GWM_AutoSarNMReserved2" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="GWM_AutoSarNMReserved1" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="GWM_AutoSarNMNodeId" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" name="GWM_AutoSarNMControl" comment="" bitcount="32" isSigned="false" encoding="65001" type="int"/>
+		</namespace>
+	</namespace>
+</systemvariables>

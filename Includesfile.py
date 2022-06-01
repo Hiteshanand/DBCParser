@@ -1,0 +1,8 @@
+MessageNameFinder = 'BO_ '
+SignalNameFinder = 'SG_ '
+ValueTableFinder = 'VAL_'
+CycleTimerFinderPrefixString = 'BA_ \"GenMsgCycleTime\" BO_ '
+DBCFileName = 'P708_ApplIntg_CANFD_DBC.dbc'
+OutputFileName = 'TesterTextFile.txt'
+sysvar_path_file = 'DBCSysVar.vsysvar'
+NodeName = 'PSCM'
